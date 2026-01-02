@@ -2,100 +2,100 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Gavin (Kuan Lun) Chen</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://GavinChen.github.io/tags/</link>
     <description>Recent content in Tags on Gavin (Kuan Lun) Chen</description>
     <generator>Hugo -- 0.153.5</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://GavinChen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Business Analytics</title>
-      <link>http://localhost:1313/tags/business-analytics/</link>
+      <link>https://GavinChen.github.io/tags/business-analytics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/business-analytics/</guid>
+      <guid>https://GavinChen.github.io/tags/business-analytics/</guid>
       <description></description>
     </item>
     <item>
       <title>Corporate Strategy</title>
-      <link>http://localhost:1313/tags/corporate-strategy/</link>
+      <link>https://GavinChen.github.io/tags/corporate-strategy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/corporate-strategy/</guid>
+      <guid>https://GavinChen.github.io/tags/corporate-strategy/</guid>
       <description></description>
     </item>
     <item>
       <title>Cross-Border Mergers</title>
-      <link>http://localhost:1313/tags/cross-border-mergers/</link>
+      <link>https://GavinChen.github.io/tags/cross-border-mergers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cross-border-mergers/</guid>
+      <guid>https://GavinChen.github.io/tags/cross-border-mergers/</guid>
       <description></description>
     </item>
     <item>
       <title>Customer Segmentation</title>
-      <link>http://localhost:1313/tags/customer-segmentation/</link>
+      <link>https://GavinChen.github.io/tags/customer-segmentation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/customer-segmentation/</guid>
+      <guid>https://GavinChen.github.io/tags/customer-segmentation/</guid>
       <description></description>
     </item>
     <item>
       <title>Econometrics</title>
-      <link>http://localhost:1313/tags/econometrics/</link>
+      <link>https://GavinChen.github.io/tags/econometrics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/econometrics/</guid>
+      <guid>https://GavinChen.github.io/tags/econometrics/</guid>
       <description></description>
     </item>
     <item>
       <title>ESG</title>
-      <link>http://localhost:1313/tags/esg/</link>
+      <link>https://GavinChen.github.io/tags/esg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/esg/</guid>
+      <guid>https://GavinChen.github.io/tags/esg/</guid>
       <description></description>
     </item>
     <item>
       <title>EV</title>
-      <link>http://localhost:1313/tags/ev/</link>
+      <link>https://GavinChen.github.io/tags/ev/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ev/</guid>
+      <guid>https://GavinChen.github.io/tags/ev/</guid>
       <description></description>
     </item>
     <item>
       <title>M&amp;A</title>
-      <link>http://localhost:1313/tags/ma/</link>
+      <link>https://GavinChen.github.io/tags/ma/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ma/</guid>
+      <guid>https://GavinChen.github.io/tags/ma/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine Learning</title>
-      <link>http://localhost:1313/tags/machine-learning/</link>
+      <link>https://GavinChen.github.io/tags/machine-learning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/machine-learning/</guid>
+      <guid>https://GavinChen.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Panel Data</title>
-      <link>http://localhost:1313/tags/panel-data/</link>
+      <link>https://GavinChen.github.io/tags/panel-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/panel-data/</guid>
+      <guid>https://GavinChen.github.io/tags/panel-data/</guid>
       <description></description>
     </item>
     <item>
       <title>Regression</title>
-      <link>http://localhost:1313/tags/regression/</link>
+      <link>https://GavinChen.github.io/tags/regression/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/regression/</guid>
+      <guid>https://GavinChen.github.io/tags/regression/</guid>
       <description></description>
     </item>
     <item>
       <title>Strategy</title>
-      <link>http://localhost:1313/tags/strategy/</link>
+      <link>https://GavinChen.github.io/tags/strategy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/strategy/</guid>
+      <guid>https://GavinChen.github.io/tags/strategy/</guid>
       <description></description>
     </item>
     <item>
       <title>Visualization</title>
-      <link>http://localhost:1313/tags/visualization/</link>
+      <link>https://GavinChen.github.io/tags/visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/visualization/</guid>
+      <guid>https://GavinChen.github.io/tags/visualization/</guid>
       <description></description>
     </item>
   </channel>
