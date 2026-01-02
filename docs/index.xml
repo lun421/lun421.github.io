@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gavin (Kuan Lun) Chen</title>
+    <link>https://lun421.github.io/</link>
+    <description>Recent content on Gavin (Kuan Lun) Chen</description>
+    <generator>Hugo -- 0.153.5</generator>
+    <language>en-us</language>
+    <atom:link href="https://lun421.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Business Analysis: Coffee Transaction Data</title>
+      <link>https://lun421.github.io/projects/project-lndata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lun421.github.io/projects/project-lndata/</guid>
+      <description>Analyzed 1.5M+ transaction records to identify customer segments and preferences using RFM and text-based analysis.</description>
+    </item>
+    <item>
+      <title>Diabetes Risk Prediction</title>
+      <link>https://lun421.github.io/projects/project-ml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lun421.github.io/projects/project-ml/</guid>
+      <description>Implemented multiple classifiers + evaluation (F2, ROC AUC, threshold tuning), with early stopping and visual comparisons</description>
+    </item>
+    <item>
+      <title>Econometrics: Globalization, Education, and Obesity</title>
+      <link>https://lun421.github.io/projects/project-econometrics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lun421.github.io/projects/project-econometrics/</guid>
+      <description>Applied panel regression models to study the relationship between globalization, education, and obesity, with robustness checks and economic interpretation.</description>
+    </item>
+    <item>
+      <title>Let&#39;s Connect!</title>
+      <link>https://lun421.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lun421.github.io/contact/</guid>
+      <description>&lt;iframe id=&#34;JotFormIFrame-260011555353447&#34;
+  title=&#34;Let&#39;s Connect!&#34;
+  allowtransparency=&#34;true&#34;
+  allow=&#34;geolocation; microphone; camera; fullscreen; payment&#34;
+  src=&#34;https://form.jotform.com/260011555353447&#34;
+  frameborder=&#34;0&#34;
+  style=&#34;min-width:100%;max-width:100%;height:700px;border:none;&#34;
+  scrolling=&#34;no&#34;&gt;
+&lt;/iframe&gt;
+&lt;script src=&#34;https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js&#34;&gt;&lt;/script&gt;
+&lt;script&gt;
+  window.jotformEmbedHandler(&#34;iframe[id=&#39;JotFormIFrame-260011555353447&#39;]&#34;, &#34;https://form.jotform.com/&#34;);
+&lt;/script&gt;</description>
+    </item>
+    <item>
+      <title>Profile</title>
+      <link>https://lun421.github.io/profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lun421.github.io/profile/</guid>
+      <description>Work Experience, Education, and Leadership</description>
+    </item>
+    <item>
+      <title>Research: Mercedes-Benz EV Transition Strategy</title>
+      <link>https://lun421.github.io/projects/research-globalprod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lun421.github.io/projects/research-globalprod/</guid>
+      <description>Analyzed Mercedes-Benz’s EV transition strategy across global production networks, ESG considerations, and localization decisions.</description>
+    </item>
+    <item>
+      <title>Research: The Merger and Failure of Daimler-Benz and Chrysler (1997–2008)</title>
+      <link>https://lun421.github.io/projects/research-ma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://lun421.github.io/projects/research-ma/</guid>
+      <description>Analyzed one of the most prominent M&amp;amp;A failures to evaluate strategic missteps, integration risks, and how valuation gaps, cultural mismatch, and strategic misalignment led to long-term value destruction.</description>
+    </item>
+  </channel>
+</rss>
