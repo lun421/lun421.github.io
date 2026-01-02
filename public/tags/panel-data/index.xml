@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Panel Data on Gavin (Kuan Lun) Chen</title>
+    <link>http://localhost:1313/tags/panel-data/</link>
+    <description>Recent content in Panel Data on Gavin (Kuan Lun) Chen</description>
+    <generator>Hugo -- 0.153.5</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/panel-data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Econometrics: Globalization, Education, and Obesity</title>
+      <link>http://localhost:1313/projects/project-econometrics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/project-econometrics/</guid>
+      <description>Applied panel regression models to study the relationship between globalization, education, and obesity, with robustness checks and economic interpretation.</description>
+    </item>
+  </channel>
+</rss>

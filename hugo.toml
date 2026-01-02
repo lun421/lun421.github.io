@@ -1,0 +1,65 @@
+baseURL = "https://GavinChen.github.io/"
+languageCode = "en-us"
+title = "Gavin (Kuan Lun) Chen"
+theme = "PaperMod"
+
+[pagination]
+  pagerSize = 5
+
+[params]
+  env = "production"
+  author = "Gavin Chen"
+  description = "Master's student | Data & Analytics"
+  defaultTheme = "light"
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  customCSS = ["css/custom.css"]
+  ShowToc = true
+  TocOpen = true
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/lun421"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/gavinchen21"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:gavinchen2002@gmail.com"
+
+[params.profileMode]
+  enabled = true
+  title = "Hi, This is Gavin"
+  subtitle = "Master's candidate in Business Analytics, interested in data science and optimization."
+  imageUrl = "images/avatar2.png"
+  imageTitle = "Gavin Chen"
+  imageAlt = "Gavin Chen"
+
+[menu]
+  [[menu.main]]
+    name = "Main"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Profile"
+    url = "/profile/"
+    weight = 20
+
+  [[menu.main]]
+    name = "Project"
+    url = "/projects/"
+    weight = 30
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 40
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
