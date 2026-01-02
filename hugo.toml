@@ -15,7 +15,7 @@ publishDir = "docs"
   ShowReadingTime = true
   ShowCodeCopyButtons = true
   ShowPostNavLinks = true
-  customCSS = ["css/custom.css"]
+  customCSS = ["css/extended/custom.css"]
   ShowToc = true
   TocOpen = true
 
