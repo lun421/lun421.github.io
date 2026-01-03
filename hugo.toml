@@ -1,6 +1,6 @@
 baseURL = "https://lun421.github.io/"
 languageCode = "en-us"
-title = "Gavin (Kuan Lun) Chen"
+title = "Gavin's Website'"
 theme = "PaperMod"
 publishDir = "docs"
 
@@ -10,7 +10,7 @@ publishDir = "docs"
 [params]
   env = "production"
   author = "Gavin Chen"
-  description = "Master's student | Data & Analytics"
+  description = "Master's candidate | Data & Analytics"
   defaultTheme = "light"
   ShowReadingTime = true
   ShowCodeCopyButtons = true
@@ -34,6 +34,7 @@ publishDir = "docs"
 [params.profileMode]
   enabled = true
   title = "Hi, This is Gavin"
+  nameLine = "Kuan-Lun Chen"
   subtitle = "Master's candidate in Business Analytics, interested in data science and optimization."
   imageUrl = "images/avatar3.webp"
   imageTitle = "Gavin Chen"

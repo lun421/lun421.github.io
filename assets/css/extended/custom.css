@@ -129,3 +129,13 @@ img[src*="/images/avatar3.webp"] {
 body:has(main.main.profile-page) .profile-toc summary {
   display: none !important;
 }
+
+.profile-mode .profile h1::after,
+.profile .profile_inner + h1::after {
+  content: "Kuan-Lun Chen";
+  display: block;
+  font-size: 1.05rem;   /* 比 title 小一點點 */
+  font-weight: 700;     /* 實心黑 */
+  color: #000;
+  margin-top: 0.45rem;
+}
