@@ -30,14 +30,13 @@ main.main,
 
 /* =========================================================
    Home (ProfileMode): Avatar sizing
-   Note: Your avatar is an <img> at /images/avatar.png (or avatar2.png)
    ========================================================= */
 
 /* Default avatar rule by filename (most reliable) */
-img[src$="/images/avatar.png"],
-img[src*="/images/avatar.png"],
-img[src$="/images/avatar2.png"],
-img[src*="/images/avatar2.png"] {
+img[src$="/images/avatar3.webp"],
+img[src*="/images/avatar3.webp"],
+img[src$="/images/avatar3.webp"],
+img[src*="/images/avatar3.webp"] {
   width: 240px !important;     /* Desktop size */
   height: 240px !important;
   border-radius: 50% !important;
@@ -46,10 +45,10 @@ img[src*="/images/avatar2.png"] {
 
 /* Mobile avatar size */
 @media (max-width: 767px) {
-  img[src$="/images/avatar.png"],
-  img[src*="/images/avatar.png"],
-  img[src$="/images/avatar2.png"],
-  img[src*="/images/avatar2.png"] {
+  img[src$="/images/avatar3.webp"],
+  img[src*="/images/avatar3.webp"],
+  img[src$="/images/avatar3.webp"],
+  img[src*="/images/avatar3.webp"] {
     width: 140px !important;
     height: 140px !important;
   }
