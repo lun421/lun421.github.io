@@ -72,3 +72,32 @@ body:has(main.main.profile-page) .profile-toc summary {
 }
 
 
+/* Table styling */
+table {
+  margin: 1.5rem auto;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+th {
+  background: #e8f1f8;
+  font-weight: 600;
+}
+
+td, th {
+  padding: 0.6rem 0.8rem;
+  text-align: center;
+  border: 1px solid var(--border);
+}
+
+/* Highlight styles */
+.high { color: #d62828; font-weight: 700; }   /* best recall */
+.best { color: #d62828; font-weight: 700; }   /* best F2 */
+.mid  { color: #1d6fdc; font-weight: 600; }   /* mid highlight */
+.low  { color: #1d6fdc; font-weight: 600; }   /* low precision */
+/* Force first column (Metric) to center */
+table td:first-child,
+table th:first-child {
+  text-align: center !important;
+  font-weight: 600;
+}
