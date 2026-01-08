@@ -1,32 +1,4 @@
-/* =========================================================
-   Global: Fixed Header (top bar stays visible)
-   ========================================================= */
-header.header,
-.header {
-  position: fixed !important;
-  top: 0 !important;
-  left: 0 !important;
-  right: 0 !important;
-  z-index: 99999 !important;
 
-  background: var(--theme) !important;
-  border-bottom: 3px solid var(--border) !important;
-  backdrop-filter: blur(10px);
-}
-
-/* Push page content down so it isn't covered by fixed header */
-main.main,
-.main {
-  padding-top: 96px !important;
-}
-
-/* Mobile: slightly smaller top padding */
-@media (max-width: 767px) {
-  main.main,
-  .main {
-    padding-top: 88px !important;
-  }
-}
 
 /* =========================================================
    Home (ProfileMode): Avatar sizing
@@ -92,50 +64,11 @@ img[src*="/images/avatar3.webp"] {
 }
 
 /* =========================
-   Profile page layout
+   取消TOC選單
    ========================= */
-
-@media (min-width: 1100px) {
-
-  body:has(main.main.profile-page) .profile-toc {
-    position: fixed !important;
-    top: 200px !important;                  
-    left: 60px !important;                  
-    width: 340px !important;
-    max-height: calc(100vh - 140px) !important;
-    overflow: auto !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    z-index: 9999 !important;
-  }
-
-  body:has(main.main.profile-page) main.main.profile-page {
-    max-width: 1700px !important;
-    width: 130% !important;
-    margin: 0 auto !important;
-    padding-left: calc(20px + 24px + 24px) !important; 
-    padding-right: 24px !important;
-  }
-
-  body:has(main.main.profile-page) main.main.profile-page.profile-grid {
-    display: block !important;
-  }
-}
-
-:where(h2, h3, h4, h5, h6) {
-  scroll-margin-top: 70px; 
-}
 
 body:has(main.main.profile-page) .profile-toc summary {
   display: none !important;
 }
 
-.profile-mode .profile h1::after,
-.profile .profile_inner + h1::after {
-  content: "Kuan-Lun Chen";
-  display: block;
-  font-size: 1.05rem;   /* 比 title 小一點點 */
-  font-weight: 700;     /* 實心黑 */
-  color: #000;
-  margin-top: 0.45rem;
-}
+

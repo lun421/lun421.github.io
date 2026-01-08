@@ -16,8 +16,8 @@ publishDir = "docs"
   ShowCodeCopyButtons = true
   ShowPostNavLinks = true
   customCSS = ["css/extended/custom.css"]
-  ShowToc = true
-  TocOpen = true
+  math = true
+
 
   [[params.socialIcons]]
     name = "github"
@@ -56,12 +56,13 @@ publishDir = "docs"
     url = "/projects/"
     weight = 30
 
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 40
+  # [[menu.main]]
+  #   name = "Contact"
+  #   url = "/contact/"
+  #   weight = 40
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
