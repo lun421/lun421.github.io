@@ -1,8 +1,8 @@
 ---
 title: "Applying Machine Learning to Diabetes Risk Prediction: An Empirical Analysis Using BRFSS Data"
-date: 2025-06-30
+date: 2025-06-01
 math: true
-summary: " "
+summary: "Hand-built machine learning models for diabetes risk prediction using questionnaire-derived features (age, BMI, lifestyle factors) and basic health indicators, with recall-oriented evaluation for early screening."
 ---
 # Introduction
 Diabetes is a common chronic metabolic disease whose early-stage symptoms are often subtle, yet it can lead to severe complications if left untreated. Early detection and timely intervention not only help improve individual quality of life but also effectively reduce overall healthcare expenditures and resource burdens. Current diagnostic practices primarily rely on fasting blood glucose and glycated hemoglobin ($\mathrm{HbA1c}$) tests. However, these blood-based examinations present practical challenges in terms of cost, convenience, and accessibility, particularly in resource-limited settings.

@@ -6,14 +6,14 @@
     <description>Recent content in Projects on Gavin&#39;s Website&#39;</description>
     <generator>Hugo -- 0.153.5</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://lun421.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Applying Machine Learning to Diabetes Risk Prediction: An Empirical Analysis Using BRFSS Data</title>
-      <link>https://lun421.github.io/projects/ml/</link>
-      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://lun421.github.io/projects/ml/</guid>
-      <description></description>
+      <link>https://lun421.github.io/projects/diabetes-risk-prediction/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://lun421.github.io/projects/diabetes-risk-prediction/</guid>
+      <description>Hand-built machine learning models for diabetes risk prediction using questionnaire-derived features (age, BMI, lifestyle factors) and basic health indicators, with recall-oriented evaluation for early screening.</description>
     </item>
     <item>
       <title>Econometrics: Obesity, Globalization, and Education</title>
