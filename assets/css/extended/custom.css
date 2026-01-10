@@ -41,39 +41,30 @@ table th:first-child {
 
 /* =========================================================
    Home: Contact Card (主頁名片)
-   - Keep your current layout EXACTLY
-   - Only make photo width/height manually adjustable (desktop & mobile)
    ========================================================= */
 
-/* ===== Manual controls (edit only these 4 numbers) ===== */
 :root {
-  --home-card-photo-w-desktop: 200px; /* 原本 left column 寬度 */
-  --home-card-photo-h-desktop: 280px; /* 5:7 example: 260*7/5=364 */
-
-  --home-card-photo-w-mobile: 100px;  /* 你指定 100 */
-  --home-card-photo-h-mobile: 140px;  /* 你指定 140 */
+  --home-card-photo-w-desktop: 200px;
+  --home-card-photo-h-desktop: 280px;
+  --home-card-photo-w-mobile: 100px;
+  --home-card-photo-h-mobile: 140px;
 }
 
-/* ===== Desktop card layout (unchanged) ===== */
 .home-contact-card {
   margin: 32px auto 0;
   max-width: 960px;
-
   display: grid;
-  grid-template-columns: 260px 1fr; /* 不改你原本 */
+  grid-template-columns: 260px 1fr;
   gap: 36px;
-
   padding-bottom: 28px;
   border-bottom: 1px solid #ddd;
 }
 
-/* ===== Desktop photo (5:7 rectangle, not circular) ===== */
 .home-contact-card .home-photo img {
   width: var(--home-card-photo-w-desktop) !important;
   height: var(--home-card-photo-h-desktop) !important;
   object-fit: cover !important;
-
-  border-radius: 0 !important; /* 直式矩形 */
+  border-radius: 0 !important;
   border: 1px solid var(--border);
 }
 
@@ -134,22 +125,6 @@ table th:first-child {
 .home-contact-line a:hover {
   color: var(--primary);
   text-decoration: underline;
-}
-
-.home-contact-note {
-  margin-top: 16px;
-  opacity: 0.75;
-}
-
-/* Helper classes for mobile name block */
-.home-name-block {
-  display: none; /* desktop hidden by default */
-}
-
-.home-contact-name-en {
-  font-size: 1.05rem;
-  opacity: 0.85;
-  margin-top: -0.1rem;
 }
 
 /* ===== Mobile layout ===== */
@@ -306,25 +281,27 @@ table th:first-child {
     font-size: 0.85rem;
   }
 
-  /* mobile 顯示新姓名，隱藏原本姓名 */
-  .home-name-block {
-    display: block;
-    align-self: center;
+  /* 手機版圖片放大 1.2 倍 */
+  /* 文章內容中的圖片 */
+  .post-content img,
+  .entry-content img,
+  article img {
+    transform: scale(1.2);
+    transform-origin: center center;
+    max-width: 100%;
+    margin: 1rem auto;
   }
 
-  .home-name-inline {
-    display: none;
+  /* 封面圖片 */
+  .entry-cover img {
+    transform: scale(1.2);
+    transform-origin: center center;
   }
 
-  /* mobile name typography */
-  .home-name-block .home-contact-name {
-    font-size: 1.0rem;
-    margin-bottom: 0.1rem;
-  }
-
-  .home-name-block .home-contact-name-en {
-    font-size: 0.85rem;
-    opacity: 0.85;
+  /* Figure 中的圖片 */
+  figure img {
+    transform: scale(1.2);
+    transform-origin: center center;
   }
 }
 

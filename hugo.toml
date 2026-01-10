@@ -52,11 +52,6 @@ publishDir = "docs"
     url = "/projects/"
     weight = 30
 
-  # [[menu.main]]
-  #   name = "Contact"
-  #   url = "/contact/"
-  #   weight = 40
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

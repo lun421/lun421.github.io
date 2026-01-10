@@ -1,21 +1,14 @@
 {{- $p := .Site.Params.profileMode -}}
 {{- if and $p $p.enabled -}}
 
-<!-- 上：名片式 Contact 卡片 -->
 <div class="home-contact-card">
-
-  <!-- 左：照片 -->
   <div class="home-photo">
     <img src="{{ $p.imageUrl | absURL }}" alt="{{ $p.imageAlt }}">
   </div>
 
-  <!-- 右：Contact info -->
   <div class="home-contact-info">
-
-    <!-- Name header -->
-    <div class="home-contact-name">陳冠倫</div>    
+    <div class="home-contact-name">陳冠倫</div>
     <div class="home-contact-name">Gavin (Kuan-Lun) Chen</div>
-    
 
     <div class="home-contact-title">Contact Information</div>
 
@@ -39,17 +32,12 @@
         gavinchen2002@gmail.com
       </a>
     </div>
+  </div>
+</div>
 
-  </div> <!-- /.home-contact-info -->
-
-</div> <!-- /.home-contact-card -->
-
-<!-- 下：Hi / subtitle（獨立區塊） -->
 <div class="home-intro-below">
   {{- with $p.title -}}<h1>{{ . }}</h1>{{- end -}}
   {{- with $p.subtitle -}}<p>{{ . }}</p>{{- end -}}
 </div>
 
 {{- end -}}
-
-
