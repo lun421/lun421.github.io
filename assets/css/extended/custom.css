@@ -46,8 +46,8 @@ table th:first-child {
 :root {
   --home-card-photo-w-desktop: 200px;
   --home-card-photo-h-desktop: 280px;
-  --home-card-photo-w-mobile: 120px;
-  --home-card-photo-h-mobile: 168px;
+  --home-card-photo-w-mobile: 150px;
+  --home-card-photo-h-mobile: 210px;
 }
 
 .home-contact-card {
@@ -232,7 +232,7 @@ table th:first-child {
 
   /* 手機版 grid：照片左側，資訊右側 */
   .home-contact-card {
-    grid-template-columns: 120px 1fr;
+    grid-template-columns: 150px 1fr;
     gap: 14px;
     align-items: flex-start;
     padding-bottom: 24px;
@@ -264,8 +264,13 @@ table th:first-child {
   .home-contact-title {
     font-size: 0.875rem;
     font-weight: 600;
-    margin-top: 8px;
+    margin-top: 1rem;
     margin-bottom: 8px;
+  }
+
+  /* 手機版：在第二個姓名（Gavin）和 Contact Information 之間增加間距 */
+  .home-contact-info .home-contact-name:last-of-type {
+    margin-bottom: 0.5rem;
   }
 
   /* 手機版聯絡資訊字體大小 */
