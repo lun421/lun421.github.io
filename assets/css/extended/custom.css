@@ -1,69 +1,4 @@
 /* =========================================================
-   Home (ProfileMode): Avatar sizing (by filename)
-   - Keep avatar3.webp circular everywhere by default
-   ========================================================= */
-
-/* Avatar3 default size (desktop) */
-img[src$="/images/avatar3.webp"],
-img[src*="/images/avatar3.webp"] {
-  width: 250px !important;
-  height: 350px !important;
-  border-radius: 50% !important;
-  object-fit: cover !important;
-}
-
-/* Avatar3 size (mobile) */
-@media (max-width: 767px) {
-  img[src$="/images/avatar3.webp"],
-  img[src*="/images/avatar3.webp"] {
-    width: 180px !important;
-    height: 250px !important;
-  }
-}
-
-/* Extra safety: PaperMod ProfileMode wrapper image stays circular */
-.profile-mode .profile .profile_inner img {
-  border-radius: 50% !important;
-  object-fit: cover !important;
-}
-
-/* =========================================================
-   Contact page title icon + email line styling
-   (Used by your custom contact header template)
-   ========================================================= */
-.contact-title {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.6rem;
-}
-
-.contact-title-icon {
-  display: inline-flex;
-  align-items: center;
-  opacity: 0.9;
-}
-
-.contact-email-line {
-  margin: 0.5rem 0 1.25rem;
-}
-
-/* =========================================================
-   TOC behavior
-   - Hide PaperMod default inline TOC under title (single pages)
-   - Hide dropdown summary in your custom Profile page TOC
-   ========================================================= */
-
-/* Hide inline TOC under title (PaperMod default) */
-.post-single .toc {
-  display: none !important;
-}
-
-/* Hide TOC dropdown summary only on your custom profile page layout */
-body:has(main.main.profile-page) .profile-toc summary {
-  display: none !important;
-}
-
-/* =========================================================
    Table styling
    ========================================================= */
 table {
@@ -106,34 +41,46 @@ table th:first-child {
 
 /* =========================================================
    Home: Contact Card (主頁名片)
-   - Gray divider line + spacing
+   - Keep your current layout EXACTLY
+   - Only make photo width/height manually adjustable (desktop & mobile)
    ========================================================= */
+
+/* ===== Manual controls (edit only these 4 numbers) ===== */
+:root {
+  --home-card-photo-w-desktop: 200px; /* 原本 left column 寬度 */
+  --home-card-photo-h-desktop: 280px; /* 5:7 example: 260*7/5=364 */
+
+  --home-card-photo-w-mobile: 100px;  /* 你指定 100 */
+  --home-card-photo-h-mobile: 140px;  /* 你指定 140 */
+}
+
+/* ===== Desktop card layout (unchanged) ===== */
 .home-contact-card {
   margin: 32px auto 0;
   max-width: 960px;
 
   display: grid;
-  grid-template-columns: 260px 1fr;
+  grid-template-columns: 260px 1fr; /* 不改你原本 */
   gap: 36px;
 
-  padding-bottom: 28px;          /* space above the divider line */
-  border-bottom: 1px solid #ddd; /* gray divider line */
+  padding-bottom: 28px;
+  border-bottom: 1px solid #ddd;
 }
 
-/* 主頁名片照片：強制方形（覆蓋 avatar3.webp 的圓形規則） */
+/* ===== Desktop photo (5:7 rectangle, not circular) ===== */
 .home-contact-card .home-photo img {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
+  width: var(--home-card-photo-w-desktop) !important;
+  height: var(--home-card-photo-h-desktop) !important;
+  object-fit: cover !important;
 
-  border-radius: 0 !important;  /* square */
+  border-radius: 0 !important; /* 直式矩形 */
   border: 1px solid var(--border);
 }
 
-/* Intro block (Hi / subtitle) — spacing under divider line */
+/* Intro block spacing */
 .home-intro-below,
 .home-intro {
-  margin-top: 40px !important;  /* adjust 48/56 if still too tight */
+  margin-top: 40px !important;
 }
 
 /* Intro typography */
@@ -180,7 +127,8 @@ table th:first-child {
 
 .home-contact-line a {
   color: var(--content);
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .home-contact-line a:hover {
@@ -188,56 +136,177 @@ table th:first-child {
   text-decoration: underline;
 }
 
-.home-contact-line a {
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-
 .home-contact-note {
   margin-top: 16px;
   opacity: 0.75;
 }
 
-/* =========================================================
-   Home card: HTML helper classes
-   - For your "mobile name block" approach:
-     .home-name-block (mobile only)
-     .home-name-inline (desktop only)
-     .home-contact-name-en (2nd line for English name)
-   ========================================================= */
+/* Helper classes for mobile name block */
 .home-name-block {
   display: none; /* desktop hidden by default */
 }
 
-/* Optional: English name style (desktop only affects the new block if you show it later) */
 .home-contact-name-en {
   font-size: 1.05rem;
   opacity: 0.85;
   margin-top: -0.1rem;
 }
 
-/* =========================================================
-   Mobile layout: Photo left, Name right, Contact info below
-   - This section also replaces your older "grid-template-columns: 1fr" rule
-   ========================================================= */
+/* ===== Mobile layout ===== */
 @media (max-width: 760px) {
 
-  /* 重新定義 mobile grid：photo | name, 下一列放 info */
+  /* 全局字體大小調整 */
+  body {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  /* 標題字體大小調整 */
+  h1, .post-title, .page-header h1, .first-entry .entry-header h1 {
+    font-size: 26px !important;
+  }
+
+  h2, .entry-header h2 {
+    font-size: 22px !important;
+  }
+
+  h3 {
+    font-size: 18px !important;
+  }
+
+  h4 {
+    font-size: 16px !important;
+  }
+
+  h5 {
+    font-size: 14px !important;
+  }
+
+  h6 {
+    font-size: 12px !important;
+  }
+
+  /* 文章內容標題 */
+  .post-content h1 {
+    font-size: 26px !important;
+  }
+
+  .post-content h2 {
+    font-size: 22px !important;
+  }
+
+  .post-content h3 {
+    font-size: 18px !important;
+  }
+
+  .post-content h4 {
+    font-size: 15px !important;
+  }
+
+  .post-content h5 {
+    font-size: 13px !important;
+  }
+
+  .post-content h6 {
+    font-size: 12px !important;
+  }
+
+  /* 導航欄字體 */
+  .logo a {
+    font-size: 20px !important;
+  }
+
+  #menu a, .lang-switch a {
+    font-size: 14px !important;
+  }
+
+  button#theme-toggle {
+    font-size: 22px !important;
+  }
+
+  /* 文章內容和摘要 */
+  .post-content, .entry-content, .first-entry .entry-content {
+    font-size: 15px !important;
+    line-height: 1.6;
+  }
+
+  .post-meta, .breadcrumbs, .entry-footer, .first-entry .entry-footer {
+    font-size: 12px !important;
+  }
+
+  /* Intro 區域字體 */
+  .home-intro h1,
+  .home-intro-below h1 {
+    font-size: 1.2rem !important;
+  }
+
+  .home-intro p,
+  .home-intro-below p {
+    font-size: 14px !important;
+  }
+
+  /* 表格字體 */
+  table {
+    font-size: 13px !important;
+  }
+
+  /* 分頁字體 */
+  .pagination a {
+    font-size: 12px !important;
+  }
+
+  /* 手機版 grid：照片左側，資訊右側 */
   .home-contact-card {
-    grid-template-columns: 96px 1fr;   /* photo | name */
-    gap: 16px;
-    align-items: center;
+    grid-template-columns: 100px 1fr;
+    gap: 14px;
+    align-items: flex-start;
+    padding-bottom: 24px;
   }
 
-  /* 照片維持方形但縮小 */
+  /* Mobile photo (100x140) */
   .home-contact-card .home-photo img {
-    width: 96px;
-    height: 96px;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
+    width: var(--home-card-photo-w-mobile) !important;
+    height: var(--home-card-photo-h-mobile) !important;
+    object-fit: cover !important;
+    border-radius: 0 !important;
   }
 
-  /* ✅ mobile 顯示新姓名，隱藏原本姓名（需配合你改過的 HTML） */
+  /* 手機版：姓名和聯絡資訊保持在照片右側 */
+  .home-contact-info {
+    grid-column: 2;
+    margin-top: 0;
+  }
+
+  /* 手機版姓名字體大小調整 */
+  .home-contact-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+    line-height: 1.3;
+  }
+
+  /* 手機版標題字體大小 */
+  .home-contact-title {
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  /* 手機版聯絡資訊字體大小 */
+  .home-contact-line {
+    font-size: 0.8rem;
+    gap: 8px;
+    margin-bottom: 0.4rem;
+    line-height: 1.4;
+  }
+
+  .home-contact-line i {
+    width: 16px;
+    font-size: 0.85rem;
+  }
+
+  /* mobile 顯示新姓名，隱藏原本姓名 */
   .home-name-block {
     display: block;
     align-self: center;
@@ -247,35 +316,15 @@ table th:first-child {
     display: none;
   }
 
-  /* 姓名字體縮小（針對 mobile name block） */
+  /* mobile name typography */
   .home-name-block .home-contact-name {
-    font-size: 1.15rem;
+    font-size: 1.0rem;
     margin-bottom: 0.1rem;
   }
 
   .home-name-block .home-contact-name-en {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     opacity: 0.85;
   }
-
-  /* Contact info 區塊整個移到下一列 */
-  .home-contact-info {
-    grid-column: 1 / -1;   /* 佔滿整行 */
-    margin-top: 12px;
-  }
-
-  .home-contact-title {
-    font-size: 0.9rem;
-    margin-bottom: 10px;
-  }
-
-  /* Contact 行字體縮小 */
-  .home-contact-line {
-    font-size: 0.85rem;
-    gap: 8px;
-  }
-
-  .home-contact-note {
-    font-size: 0.8rem;
-  }
 }
+
