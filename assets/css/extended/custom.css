@@ -6,8 +6,8 @@
 /* Avatar3 default size (desktop) */
 img[src$="/images/avatar3.webp"],
 img[src*="/images/avatar3.webp"] {
-  width: 240px !important;
-  height: 360px !important;
+  width: 250px !important;
+  height: 350px !important;
   border-radius: 50% !important;
   object-fit: cover !important;
 }
@@ -16,8 +16,8 @@ img[src*="/images/avatar3.webp"] {
 @media (max-width: 767px) {
   img[src$="/images/avatar3.webp"],
   img[src*="/images/avatar3.webp"] {
-    width: 144px !important;
-    height: 192px !important;
+    width: 180px !important;
+    height: 250px !important;
   }
 }
 
@@ -140,7 +140,7 @@ table th:first-child {
 .home-intro h1,
 .home-intro-below h1 {
   font-size: 1.4rem;
-  margin-top: 0 !important;    
+  margin-top: 0 !important;
   margin-bottom: 6px;
 }
 
@@ -154,7 +154,7 @@ table th:first-child {
 /* Contact info (right column) */
 .home-contact-name {
   font-size: 1.5rem;
-  font-weight: 700;   
+  font-weight: 700;
   margin-bottom: 0.25rem;
 }
 
@@ -188,7 +188,6 @@ table th:first-child {
   text-decoration: underline;
 }
 
-
 .home-contact-line a {
   text-decoration: underline;
   text-underline-offset: 3px;
@@ -199,9 +198,84 @@ table th:first-child {
   opacity: 0.75;
 }
 
-/* Mobile layout */
+/* =========================================================
+   Home card: HTML helper classes
+   - For your "mobile name block" approach:
+     .home-name-block (mobile only)
+     .home-name-inline (desktop only)
+     .home-contact-name-en (2nd line for English name)
+   ========================================================= */
+.home-name-block {
+  display: none; /* desktop hidden by default */
+}
+
+/* Optional: English name style (desktop only affects the new block if you show it later) */
+.home-contact-name-en {
+  font-size: 1.05rem;
+  opacity: 0.85;
+  margin-top: -0.1rem;
+}
+
+/* =========================================================
+   Mobile layout: Photo left, Name right, Contact info below
+   - This section also replaces your older "grid-template-columns: 1fr" rule
+   ========================================================= */
 @media (max-width: 760px) {
+
+  /* 重新定義 mobile grid：photo | name, 下一列放 info */
   .home-contact-card {
-    grid-template-columns: 1fr;
+    grid-template-columns: 96px 1fr;   /* photo | name */
+    gap: 16px;
+    align-items: center;
+  }
+
+  /* 照片維持方形但縮小 */
+  .home-contact-card .home-photo img {
+    width: 96px;
+    height: 96px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
+  /* ✅ mobile 顯示新姓名，隱藏原本姓名（需配合你改過的 HTML） */
+  .home-name-block {
+    display: block;
+    align-self: center;
+  }
+
+  .home-name-inline {
+    display: none;
+  }
+
+  /* 姓名字體縮小（針對 mobile name block） */
+  .home-name-block .home-contact-name {
+    font-size: 1.15rem;
+    margin-bottom: 0.1rem;
+  }
+
+  .home-name-block .home-contact-name-en {
+    font-size: 0.9rem;
+    opacity: 0.85;
+  }
+
+  /* Contact info 區塊整個移到下一列 */
+  .home-contact-info {
+    grid-column: 1 / -1;   /* 佔滿整行 */
+    margin-top: 12px;
+  }
+
+  .home-contact-title {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+
+  /* Contact 行字體縮小 */
+  .home-contact-line {
+    font-size: 0.85rem;
+    gap: 8px;
+  }
+
+  .home-contact-note {
+    font-size: 0.8rem;
   }
 }
