@@ -1,0 +1,55 @@
+{{- $p := .Site.Params.profileMode -}}
+{{- if and $p $p.enabled -}}
+
+<!-- 上：名片式 Contact 卡片 -->
+<div class="home-contact-card">
+
+  <!-- 左：照片 -->
+  <div class="home-photo">
+    <img src="{{ $p.imageUrl | absURL }}" alt="{{ $p.imageAlt }}">
+  </div>
+
+  <!-- 右：Contact info -->
+  <div class="home-contact-info">
+
+    <!-- Name header -->
+    <div class="home-contact-name">陳冠倫</div>    
+    <div class="home-contact-name">Gavin (Kuan-Lun) Chen</div>
+    
+
+    <div class="home-contact-title">Contact Information</div>
+
+    <div class="home-contact-line">
+      <i class="fa-brands fa-github"></i>
+      <a href="https://github.com/lun421" target="_blank" rel="noopener">
+        github.com/lun421
+      </a>
+    </div>
+
+    <div class="home-contact-line">
+      <i class="fa-brands fa-linkedin"></i>
+      <a href="https://linkedin.com/in/gavinchen21" target="_blank" rel="noopener">
+        linkedin.com/in/gavinchen21
+      </a>
+    </div>
+
+    <div class="home-contact-line">
+      <i class="fa-solid fa-envelope"></i>
+      <a href="mailto:gavinchen2002@gmail.com">
+        gavinchen2002@gmail.com
+      </a>
+    </div>
+
+  </div> <!-- /.home-contact-info -->
+
+</div> <!-- /.home-contact-card -->
+
+<!-- 下：Hi / subtitle（獨立區塊） -->
+<div class="home-intro-below">
+  {{- with $p.title -}}<h1>{{ . }}</h1>{{- end -}}
+  {{- with $p.subtitle -}}<p>{{ . }}</p>{{- end -}}
+</div>
+
+{{- end -}}
+
+

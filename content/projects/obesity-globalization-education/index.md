@@ -1,5 +1,5 @@
 ---
-title: "Econometrics: Obesity, Globalization, and Education"
+title: "Obesity, Globalization, and Education: An Empirical Panel Data Analysis"
 date: 2024-06-30
 math: true
 summary: "Applied fixed-effects panel regressions to examine the relationship between social globalization, education, and obesity prevalence using cross-country data"

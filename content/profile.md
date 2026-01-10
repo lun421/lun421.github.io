@@ -34,15 +34,14 @@ Bachelor of Arts in Economics
 
 - Academic Excellence Award (2021)
 - Data Science Program Certificate
-- Relevant Coursework: Statistics, Econometrics, Linear Algebra, Machine Learning
-- Built Python web scraping scripts to automate data collection across platforms, reducing manual effort by ~50%
+- Relevant Coursework: Statistics, Econometrics, Linear Algebra, Machine Learning, Programming in Python
 
 ---
 
 ## Leadership
 
 ### NTHU Data Science Club  
-**Co-founder, Marketing Specialist**  
+**Marketing Director**  
 Hsinchu, Taiwan | Aug 2024 – Jun 2025
 
 - Curated data science topics and transformed materials into clear course notes for peer learning

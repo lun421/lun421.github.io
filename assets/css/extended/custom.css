@@ -1,24 +1,19 @@
-
-
 /* =========================================================
-   Home (ProfileMode): Avatar sizing
+   Home (ProfileMode): Avatar sizing (by filename)
+   - Keep avatar3.webp circular everywhere by default
    ========================================================= */
 
-/* Default avatar rule by filename (most reliable) */
-img[src$="/images/avatar3.webp"],
-img[src*="/images/avatar3.webp"],
+/* Avatar3 default size (desktop) */
 img[src$="/images/avatar3.webp"],
 img[src*="/images/avatar3.webp"] {
-  width: 240px !important;     /* Desktop size */
+  width: 240px !important;
   height: 240px !important;
   border-radius: 50% !important;
   object-fit: cover !important;
 }
 
-/* Mobile avatar size */
+/* Avatar3 size (mobile) */
 @media (max-width: 767px) {
-  img[src$="/images/avatar3.webp"],
-  img[src*="/images/avatar3.webp"],
   img[src$="/images/avatar3.webp"],
   img[src*="/images/avatar3.webp"] {
     width: 140px !important;
@@ -26,7 +21,7 @@ img[src*="/images/avatar3.webp"] {
   }
 }
 
-/* If your PaperMod profileMode wrapper exists, keep it consistent too */
+/* Extra safety: PaperMod ProfileMode wrapper image stays circular */
 .profile-mode .profile .profile_inner img {
   border-radius: 50% !important;
   object-fit: cover !important;
@@ -54,8 +49,8 @@ img[src*="/images/avatar3.webp"] {
 
 /* =========================================================
    TOC behavior
-   - You created a custom Profile layout with a left-side TOC.
-   - Hide the default inline TOC under the title (for normal single pages).
+   - Hide PaperMod default inline TOC under title (single pages)
+   - Hide dropdown summary in your custom Profile page TOC
    ========================================================= */
 
 /* Hide inline TOC under title (PaperMod default) */
@@ -63,16 +58,14 @@ img[src*="/images/avatar3.webp"] {
   display: none !important;
 }
 
-/* =========================
-   取消TOC選單
-   ========================= */
-
+/* Hide TOC dropdown summary only on your custom profile page layout */
 body:has(main.main.profile-page) .profile-toc summary {
   display: none !important;
 }
 
-
-/* Table styling */
+/* =========================================================
+   Table styling
+   ========================================================= */
 table {
   margin: 1.5rem auto;
   border-collapse: collapse;
@@ -84,20 +77,131 @@ th {
   font-weight: 600;
 }
 
-td, th {
+td,
+th {
   padding: 0.6rem 0.8rem;
   text-align: center;
   border: 1px solid var(--border);
 }
 
-/* Highlight styles */
-.high { color: #d62828; font-weight: 700; }   /* best recall */
-.best { color: #d62828; font-weight: 700; }   /* best F2 */
-.mid  { color: #1d6fdc; font-weight: 600; }   /* mid highlight */
-.low  { color: #1d6fdc; font-weight: 600; }   /* low precision */
-/* Force first column (Metric) to center */
+/* Force first column (Metric) to center + emphasized */
 table td:first-child,
 table th:first-child {
   text-align: center !important;
   font-weight: 600;
+}
+
+/* Highlight styles */
+.high,
+.best {
+  color: #d62828;
+  font-weight: 700;
+}
+
+.mid,
+.low {
+  color: #1d6fdc;
+  font-weight: 600;
+}
+
+/* =========================================================
+   Home: Contact Card (主頁名片)
+   - Gray divider line + spacing
+   ========================================================= */
+.home-contact-card {
+  margin: 32px auto 0;
+  max-width: 960px;
+
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 36px;
+
+  padding-bottom: 28px;          /* space above the divider line */
+  border-bottom: 1px solid #ddd; /* gray divider line */
+}
+
+/* 主頁名片照片：強制方形（覆蓋 avatar3.webp 的圓形規則） */
+.home-contact-card .home-photo img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+
+  border-radius: 0 !important;  /* square */
+  border: 1px solid var(--border);
+}
+
+/* Intro block (Hi / subtitle) — spacing under divider line */
+.home-intro-below,
+.home-intro {
+  margin-top: 40px !important;  /* adjust 48/56 if still too tight */
+}
+
+/* Intro typography */
+.home-intro h1,
+.home-intro-below h1 {
+  font-size: 1.4rem;
+  margin-top: 0 !important;    
+  margin-bottom: 6px;
+}
+
+.home-intro p,
+.home-intro-below p {
+  margin: 0;
+  opacity: 0.85;
+  line-height: 1.4;
+}
+
+/* Contact info (right column) */
+.home-contact-name {
+  font-size: 1.5rem;
+  font-weight: 700;   
+  margin-bottom: 0.25rem;
+}
+
+.home-contact-title {
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.home-contact-line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.home-contact-line i {
+  width: 18px;
+  text-align: center;
+  color: var(--primary);
+  opacity: 0.9;
+}
+
+.home-contact-line a {
+  color: var(--content);
+  text-decoration: none;
+}
+
+.home-contact-line a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+
+.home-contact-line a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.home-contact-note {
+  margin-top: 16px;
+  opacity: 0.75;
+}
+
+/* Mobile layout */
+@media (max-width: 760px) {
+  .home-contact-card {
+    grid-template-columns: 1fr;
+  }
 }

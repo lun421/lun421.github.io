@@ -1,6 +1,6 @@
 baseURL = "https://lun421.github.io/"
 languageCode = "en-us"
-title = "Gavin's Website'"
+title = "Gavin's Website"
 theme = "PaperMod"
 publishDir = "docs"
 
@@ -33,16 +33,12 @@ publishDir = "docs"
 
 [params.profileMode]
   enabled = true
-  title = "Hi, This is Gavin"
-  nameLine = "Kuan-Lun Chen"
-  subtitle = "Master's candidate in Business Analytics, interested in data science and optimization."
   imageUrl = "images/avatar3.webp"
-  imageTitle = "Gavin Chen"
-  imageAlt = "Gavin Chen"
+
 
 [menu]
   [[menu.main]]
-    name = "Main"
+    name = "Home"
     url = "/"
     weight = 10
 
