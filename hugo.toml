@@ -33,7 +33,7 @@ publishDir = "docs"
 
 [params.profileMode]
   enabled = true
-  imageUrl = "images/avatar3.webp"
+  imageUrl = "images/avatar3.jpg"
 
 
 [menu]
