@@ -5,7 +5,7 @@ showReadingTime: false
 hideAuthor: true
 toc: true
 layout: "profile"
-summary: "Work Experience, Education, and Leadership"
+summary: "Work Experience, Education, Leadership, and Skills"
 ---
 
 ---
@@ -30,7 +30,7 @@ Bachelor of Arts in Economics
 
 - Academic Excellence Award (2021)
 - Data Science Program Certificate
-- Relevant Coursework: Statistics, Econometrics, Linear Algebra, Machine Learning, Programming in Python
+- Relevant Coursework: Statistics, Econometrics, Linear Algebra, Machine Learning
 
 ---
 
@@ -40,4 +40,9 @@ Bachelor of Arts in Economics
 **Marketing Director | Project Member**  
 Hsinchu, Taiwan | Aug 2024 – Jun 2025
 
+---
 
+## Skills
+- Financial Management Associate Certificate from the Committee for Advanced Financial Management
+- Technical: Python, R, SQL, Excel, Tableau
+- Languages: Fluent in Mandarin and English
