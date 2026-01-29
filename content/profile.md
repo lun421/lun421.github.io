@@ -13,7 +13,7 @@ summary: "Work Experience, Education, Leadership, and Skills"
 
 ### Deloitte & Touche  
 **Technology Strategy & Transformation Intern**  
-Taipei, Taiwan | Oct 2025 – Present
+Taipei, Taiwan | Oct 2025 – Jan 2026
 
 
 ### IPG Mediabrands  
@@ -26,7 +26,7 @@ Taipei, Taiwan | Jul 2024 – Nov 2024
 
 ## Education
 ### National Tsing Hua University
-Bachelor of Arts in Economics
+**Bachelor of Arts in Economics**
 
 - Academic Excellence Award (2021)
 - Data Science Program Certificate
