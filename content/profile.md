@@ -26,8 +26,9 @@ Taipei, Taiwan | Jul 2024 – Nov 2024
 
 ## Education
 ### National Tsing Hua University
-**Bachelor of Arts in Economics**
+*Bachelor of Arts in Economics*
 
+Hsinchu, Taiwan | Sep 2021 – Jun 2025
 - Academic Excellence Award (2021)
 - Data Science Program Certificate
 - Relevant Coursework: Statistics, Econometrics, Linear Algebra, Machine Learning
