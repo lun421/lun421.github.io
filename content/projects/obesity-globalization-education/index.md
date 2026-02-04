@@ -32,30 +32,22 @@ Social globalization is captured using the KOF Social Globalization Index, which
 To account for differences in economic development and nutritional conditions, the analysis includes GDP per capita, its squared term, and daily per-capita caloric supply as control variables.
 
 ### Variable Definitions
-**Obesity Prevalence (obe)**
-Measured as the percentage of the adult population with a body mass index (BMI) greater than or equal to 30, following the World Health Organization (WHO) definition.
 
-**Social Globalization (KOF Social Globalization Index)**
-A composite index developed by Dreher, capturing the degree of social globalization through three dimensions: interpersonal contacts, information flows, and cultural proximity.
-
-**Interpersonal Contacts (kof_ipg)**
-A subcomponent of social globalization reflecting cross-border personal interactions, such as international travel, migration, and personal communication.
-
-**Information Flows (kof_ing)**
-A subcomponent of social globalization measuring exposure to global information through media, internet usage, and international communication channels.
-
-**Cultural Proximity (kof_cug)**
-A subcomponent of social globalization capturing the diffusion of global cultural products and norms.
-
-**Education (edu)**
-Measured as average years of schooling at the national level, representing the average educational attainment of a country’s population.
+| Variable | Code | Definition |
+|:--------:|:----:|:----------:|
+| Obesity Prevalence | `obe` | Percentage of the adult population with a body mass index (BMI) ≥ 30, following the WHO definition |
+| Social Globalization Index (KOF) | `kof_sog` | Composite index capturing social globalization through interpersonal contacts, information flows, and cultural proximity |
+| Interpersonal Contacts (KOF)  | `kof_ipg` | Cross-border personal interactions, including international travel, migration, and personal communication |
+| Information Flows (KOF)  | `kof_ing` | Exposure to global information through media, internet usage, and international communication channels |
+| Cultural Proximity (KOF)  | `kof_cug` | Diffusion of global cultural products and norms |
+| Education | `edu` | Average years of schooling at the national level |
 
 ### Control Variables
-**GDP per Capita (perkgdp)**
-GDP per capita, calculated as gross domestic product divided by population, used to measure the level of economic development and living standards.
 
-**Daily Caloric Supply (kcal)**
-Average daily per-capita caloric supply, capturing national food availability and overall nutritional conditions.
+| Variable | Code | Definition |
+|:--------:|:----:|:----------:|
+| GDP per Capita | `perkgdp` | Gross domestic product divided by population, measuring economic development and living standards |
+| Daily Caloric Supply | `kcal` | Average daily per-capita caloric supply, capturing national food availability and nutritional conditions |
 
 
 ## Descriptive Statistics and Exploratory Analysis
