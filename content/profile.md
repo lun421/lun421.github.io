@@ -16,7 +16,7 @@ summary: ""
   <div>
     <h3 style="margin-top: 0;">Deloitte & Touche</h3>
     <strong>Technology Strategy & Transformation Intern</strong><br/>
-    Taipei, Taiwan | Oct 2025 – Jan 2026
+    Taipei, Taiwan | Oct. 2025 – Jan. 2026
   </div>
 </div>
 
@@ -25,7 +25,7 @@ summary: ""
   <div>
     <h3 style="margin-top: 0;">IPG Mediabrands</h3>
     <strong>Digital Assistant Intern</strong><br/>
-    Taipei, Taiwan | Jul 2024 – Nov 2024
+    Taipei, Taiwan | Jul. 2024 – Nov. 2024
   </div>
 </div>
 
@@ -40,7 +40,7 @@ summary: ""
   <div>
     <h3 style="margin-top: 0;">National Tsing Hua University</h3>
     <em>Bachelor of Arts in Economics</em><br/>
-    Hsinchu, Taiwan | Sep 2021 – Jun 2025
+    Hsinchu, Taiwan | Sep. 2021 – Jun. 2025
   </div>
 </div>
 
@@ -53,7 +53,7 @@ summary: ""
   <div>
     <h3 style="margin-top: 0;">NTHU Data Science Club</h3>
     <strong>Marketing Director | Project Member</strong><br/>
-    Hsinchu, Taiwan | Aug 2024 – Jun 2025
+    Hsinchu, Taiwan | Aug. 2024 – Jun. 2025
   </div>
 </div>
 

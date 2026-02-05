@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning–Based Diabetes Risk Prediction Using Questionnaire Data"
+title: "Machine Learning — Based Diabetes Risk Prediction Using Questionnaire Data"
 date: 2025-06-01
 summary: "End-to-end implementation of recall-oriented machine learning models for diabetes risk screening using large-scale public health survey data."
 math: true

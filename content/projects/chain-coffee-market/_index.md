@@ -1,0 +1,13 @@
+---
+title: "Data-Driven Analysis of the Chain Coffee Market in Taiwan — Cooperation with LnData."
+date: 2025-01-13
+summary: "Combining transaction records and social media data to analyze consumer behavior, market trends, and brand strategies in Taiwan’s chain coffee market."
+---
+
+This project examines the chain coffee market through an integrated analysis of large-scale transaction data and social media signals. Using third-party invoice data from nationwide chain coffee brands in Taiwan between January and September 2024, the study covers over 1.5 million transactions and nearly 3,000 unique coffee items. In parallel, social volume data were collected from major platforms, forums, and news sources to capture public attention, engagement, and brand-related discussions, providing both behavioral and perceptual perspectives on the market.
+
+A significant portion of the work focused on data cleaning and standardization. Coffee-related items were carefully extracted from raw transaction records despite inconsistent naming conventions across brands, and were further categorized into comparable product types such as latte, Americano, flavored coffee, and hand-brewed options. On the social data side, only the top 20% of posts by interaction volume were retained to ensure analytical relevance. This preparation enabled robust downstream analyses while minimizing noise and misclassification.
+
+Building on this foundation, the project conducted comprehensive consumer profiling and consumption behavior analyses. These included regional differences, time-of-day and weekday–weekend patterns, demographic dimensions such as age and gender, brand-level comparisons, flavor preferences, and sales strategy indicators. RFM analysis was applied to distinguish customer segments, while social buzz analysis, influencer marketing interactions, word clouds, and representative customer personas were used to provide an intuitive view of distinct consumer types and their behavioral patterns.
+
+The findings highlight several key conclusions. For most brands, customer structure is polarized, with a large share of churn-prone customers alongside a smaller yet critical group of loyal customers, indicating the need for differentiated marketing strategies. Mainstream brands benefit from membership programs and periodic promotions to stabilize core demand and broaden reach, while niche brands are better positioned to leverage social content and influencer collaborations to build emotional connections and distinctive market positioning.
