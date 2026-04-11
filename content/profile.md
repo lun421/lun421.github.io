@@ -44,6 +44,14 @@ summary: ""
   </div>
 </div>
 
+<div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
+  <img src="/CMU.webp" alt="Carnegie Mellon University" width="80" style="margin-right: 20px; flex-shrink: 0;"/>
+  <div>
+    <h3 style="margin-top: 0;">Carnegie Mellon University</h3>
+    <em>Master of Science in Business Analytics (Admitted)</em><br/>
+    Pittsburgh, PA | Aug. 2026 – May 2027
+  </div>
+</div>
 ---
 
 ## Leadership
