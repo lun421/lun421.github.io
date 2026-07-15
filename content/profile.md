@@ -12,7 +12,7 @@ summary: ""
 ## Work Experience
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
-  <img src="/deloitte.png" alt="Deloitte" width="80" style="margin-right: 20px; flex-shrink: 0;"/>
+  <img src="/images/deloitte-logo.png" alt="Deloitte" width="80" style="margin-right: 20px; flex-shrink: 0;"/>
   <div>
     <h3 style="margin-top: 0;">Deloitte & Touche</h3>
     <strong>Technology Strategy & Transformation Intern</strong><br/>
@@ -21,7 +21,7 @@ summary: ""
 </div>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
-  <img src="/IPG.jpg" alt="IPG Mediabrands" width="80" style="margin-right: 20px; flex-shrink: 0;"/>
+  <img src="/images/ipg-mediabrands-logo.jpg" alt="IPG Mediabrands" width="80" style="margin-right: 20px; flex-shrink: 0;"/>
   <div>
     <h3 style="margin-top: 0;">IPG Mediabrands</h3>
     <strong>Digital Assistant Intern</strong><br/>
@@ -36,7 +36,7 @@ summary: ""
 ## Education
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
-  <img src="/CMU.webp" alt="Carnegie Mellon University" width="80" style="margin-right: 20px; flex-shrink: 0;"/>
+  <img src="/images/cmu-logo.jpg" alt="Carnegie Mellon University" width="80" style="margin-right: 20px; flex-shrink: 0;"/>
   <div>
     <h3 style="margin-top: 0;">Carnegie Mellon University</h3>
     <em>Master of Science in Business Analytics (Admitted)</em><br/>
@@ -45,7 +45,7 @@ summary: ""
 </div>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
-  <img src="/NTHU.jpg" alt="National Tsing Hua University" width="80" style="margin-right: 20px; flex-shrink: 0;"/>
+  <img src="/images/nthu-logo.jpg" alt="National Tsing Hua University" width="80" style="margin-right: 20px; flex-shrink: 0;"/>
   <div>
     <h3 style="margin-top: 0;">National Tsing Hua University</h3>
     <em>Bachelor of Arts in Economics</em><br/>
@@ -60,7 +60,7 @@ summary: ""
 ## Leadership
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
-  <img src="/DSC.jpg" alt="NTHU Data Science Club" width="80" style="margin-right: 20px; flex-shrink: 0;"/>
+  <img src="/images/nthu-dsc-club-logo.jpg" alt="NTHU Data Science Club" width="80" style="margin-right: 20px; flex-shrink: 0;"/>
   <div>
     <h3 style="margin-top: 0;">NTHU Data Science Club</h3>
     <strong>Marketing Director | Project Member</strong><br/>

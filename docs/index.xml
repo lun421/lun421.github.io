@@ -44,7 +44,7 @@
       <description>&lt;hr&gt;
 &lt;h2 id=&#34;work-experience&#34;&gt;Work Experience&lt;/h2&gt;
 &lt;div style=&#34;display: flex; align-items: flex-start; margin-bottom: 30px;&#34;&gt;
-  &lt;img src=&#34;https://www.gavinlun.com/deloitte.png&#34; alt=&#34;Deloitte&#34; width=&#34;80&#34; style=&#34;margin-right: 20px; flex-shrink: 0;&#34;/&gt;
+  &lt;img src=&#34;https://www.gavinlun.com/images/deloitte-logo.png&#34; alt=&#34;Deloitte&#34; width=&#34;80&#34; style=&#34;margin-right: 20px; flex-shrink: 0;&#34;/&gt;
   &lt;div&gt;
     &lt;h3 style=&#34;margin-top: 0;&#34;&gt;Deloitte &amp; Touche&lt;/h3&gt;
     &lt;strong&gt;Technology Strategy &amp; Transformation Intern&lt;/strong&gt;&lt;br/&gt;
@@ -52,7 +52,7 @@
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div style=&#34;display: flex; align-items: flex-start; margin-bottom: 30px;&#34;&gt;
-  &lt;img src=&#34;https://www.gavinlun.com/IPG.jpg&#34; alt=&#34;IPG Mediabrands&#34; width=&#34;80&#34; style=&#34;margin-right: 20px; flex-shrink: 0;&#34;/&gt;
+  &lt;img src=&#34;https://www.gavinlun.com/images/ipg-mediabrands-logo.jpg&#34; alt=&#34;IPG Mediabrands&#34; width=&#34;80&#34; style=&#34;margin-right: 20px; flex-shrink: 0;&#34;/&gt;
   &lt;div&gt;
     &lt;h3 style=&#34;margin-top: 0;&#34;&gt;IPG Mediabrands&lt;/h3&gt;
     &lt;strong&gt;Digital Assistant Intern&lt;/strong&gt;&lt;br/&gt;
@@ -62,7 +62,7 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
 &lt;div style=&#34;display: flex; align-items: flex-start; margin-bottom: 30px;&#34;&gt;
-  &lt;img src=&#34;https://www.gavinlun.com/CMU.webp&#34; alt=&#34;Carnegie Mellon University&#34; width=&#34;80&#34; style=&#34;margin-right: 20px; flex-shrink: 0;&#34;/&gt;
+  &lt;img src=&#34;https://www.gavinlun.com/images/cmu-logo.jpg&#34; alt=&#34;Carnegie Mellon University&#34; width=&#34;80&#34; style=&#34;margin-right: 20px; flex-shrink: 0;&#34;/&gt;
   &lt;div&gt;
     &lt;h3 style=&#34;margin-top: 0;&#34;&gt;Carnegie Mellon University&lt;/h3&gt;
     &lt;em&gt;Master of Science in Business Analytics (Admitted)&lt;/em&gt;&lt;br/&gt;
@@ -70,7 +70,7 @@
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div style=&#34;display: flex; align-items: flex-start; margin-bottom: 30px;&#34;&gt;
-  &lt;img src=&#34;https://www.gavinlun.com/NTHU.jpg&#34; alt=&#34;National Tsing Hua University&#34; width=&#34;80&#34; style=&#34;margin-right: 20px; flex-shrink: 0;&#34;/&gt;
+  &lt;img src=&#34;https://www.gavinlun.com/images/nthu-logo.jpg&#34; alt=&#34;National Tsing Hua University&#34; width=&#34;80&#34; style=&#34;margin-right: 20px; flex-shrink: 0;&#34;/&gt;
   &lt;div&gt;
     &lt;h3 style=&#34;margin-top: 0;&#34;&gt;National Tsing Hua University&lt;/h3&gt;
     &lt;em&gt;Bachelor of Arts in Economics&lt;/em&gt;&lt;br/&gt;
@@ -80,7 +80,7 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;leadership&#34;&gt;Leadership&lt;/h2&gt;
 &lt;div style=&#34;display: flex; align-items: flex-start; margin-bottom: 30px;&#34;&gt;
-  &lt;img src=&#34;https://www.gavinlun.com/DSC.jpg&#34; alt=&#34;NTHU Data Science Club&#34; width=&#34;80&#34; style=&#34;margin-right: 20px; flex-shrink: 0;&#34;/&gt;
+  &lt;img src=&#34;https://www.gavinlun.com/images/nthu-dsc-club-logo.jpg&#34; alt=&#34;NTHU Data Science Club&#34; width=&#34;80&#34; style=&#34;margin-right: 20px; flex-shrink: 0;&#34;/&gt;
   &lt;div&gt;
     &lt;h3 style=&#34;margin-top: 0;&#34;&gt;NTHU Data Science Club&lt;/h3&gt;
     &lt;strong&gt;Marketing Director | Project Member&lt;/strong&gt;&lt;br/&gt;

@@ -69,30 +69,3 @@ Chrysler’s profitability was unsteady, as indicated by the data. Daimler’s p
 The subsequent story of Chrysler involved collaboration with Fiat in early 2009, declaring bankruptcy in April, followed by Fiat acquiring the majority of its shares. In 2014, Fiat purchased all remaining shares of Chrysler, including those held by Daimler, becoming an exclusively invested enterprise. In 2019, Fiat and PSA merged into Stellantis, headquartered in Amsterdam, making Chrysler a complete subsidiary under Stellantis. Daimler-Benz, meanwhile, began forming alliances with Japanese firms such as Renault, Nissan, and Mitsubishi, and continues to navigate the new era of electric vehicles alongside Chrysler.
 
 In conclusion, the DaimlerChrysler merger, initially fueled by the enthusiasm of Eaton and Schrempp for its perceived benefits, ultimately faltered due to unanticipated challenges. The envisioned synergies, market expansion, and shared expertise failed to materialize as expected. Significant cultural clashes, integration issues, and strategic misalignments outweighed the potential advantages. The ambitious merger, while pioneering, proved that even the most promising unions might struggle against deep-rooted operational and cultural barriers. The lessons learned from this unprecedented merger offered valuable insights into the complexities of large-scale corporate integrations.
-
-
-
-
-
-
-
-
-# References:
-
-<small>
-
-1.	DaimlerChrysler annual report, 1997 ~ 2008.
-2.	Yahoo Finance, https://finance.yahoo.com/
-3.	David Waller. Wheels on Fire. Hodder & Stoughton, 2001.
-4.	Gregory Corcoran. “Was Chrysler Buy a 'Deal From Hell'? Mr. Bruner Weighs In.” The Wall Street Journal, May 14th, 2007,
-https://www.wsj.com/articles/BL-DLB-558
-5.	Gregory Corcoran. “How Daimler-Chrysler Stacks Up Against 'Deals From Hell'.” The Wall Street Journal, May 14th, 2007,
-https://www.wsj.com/articles/BL-DLB-559
-6.	Allan Sloan. “Sloan: Why Daimler Is Paying to Dump Chrysler.” Newsweek, May 14th, 2007,
-https://www.newsweek.com/sloan-why-daimler-paying-dump-chrysler-101671
-7.	John Carney. “Chrysler, Daimler, Cerberus: Who Got Screwed?” DealBreaker, Jan 14th, 2019,
-https://dealbreaker.com/2007/05/chrysler-daimler-cerberus-who-got-screwed
-8.	Mark Landler. “Daimler chief explains why it was time to sell Chrysler.” The New York Times, May 17th, 2007,
-https://www.nytimes.com/2007/05/17/business/worldbusiness/17iht-daimler.4.5758437.html
-
-</small>

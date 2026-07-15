@@ -26,19 +26,6 @@ table th:first-child {
   font-weight: 600;
 }
 
-/* Highlight styles */
-.high,
-.best {
-  color: #d62828;
-  font-weight: 700;
-}
-
-.mid,
-.low {
-  color: #1d6fdc;
-  font-weight: 600;
-}
-
 /* =========================================================
    Home: Contact Card (主頁名片)
    ========================================================= */
