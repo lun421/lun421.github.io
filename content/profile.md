@@ -30,7 +30,7 @@ draft: false
 
 <div class="exp-item">
   <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
-    <img src="/images/ipg-mediabrands-logo.jpg" alt="IPG Mediabrands" width="80" style="margin-right: 20px; flex-shrink: 0;"/>
+    <img src="/images/ipg-logo.jpg" alt="IPG Mediabrands" width="80" style="margin-right: 20px; flex-shrink: 0;"/>
     <div>
       <h3 style="margin-top: 0;">IPG Mediabrands</h3>
       <strong>Digital Assistant Intern</strong><br/>
@@ -65,7 +65,7 @@ draft: false
   </div>
   <div class="exp-tooltip">
     <div class="exp-tooltip-body">
-      <img class="exp-tooltip-photo" src="/images/casecomp.jpg" alt="Carnegie Mellon University"/>
+      <img class="exp-tooltip-photo" src="/images/cmu-photo.jpg" alt="Carnegie Mellon University"/>
       <ul>
         <li><strong>Achievement:</strong> Tri-State Capital MS Case Competition 2026 - 1st Place Winner.</li>
         <li><strong>Relevant Coursework:</strong> Business Fundamentals, Machine Learning Fundamentals, Modern Data Management.</li>
@@ -85,7 +85,7 @@ draft: false
   </div>
   <div class="exp-tooltip">
     <div class="exp-tooltip-body">
-      <img class="exp-tooltip-photo" src="/images/grad.jpg" alt="National Tsing Hua University Graduation"/>
+      <img class="exp-tooltip-photo" src="/images/nthu-photo.jpg" alt="National Tsing Hua University Graduation"/>
       <ul>
         <li><strong>Certificate:</strong> Data Science Program Certificate (18 credits).</li>
         <li><strong>Honor:</strong> Academic Excellence Award, 2021 (Top 1% of Students).</li>
@@ -104,7 +104,7 @@ draft: false
 
 <div class="exp-item">
   <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
-    <img src="/images/nthu-dsc-club-logo.jpg" alt="NTHU Data Science Club" width="80" style="margin-right: 20px; flex-shrink: 0;"/>
+    <img src="/images/nthu-dsc-logo.jpg" alt="NTHU Data Science Club" width="80" style="margin-right: 20px; flex-shrink: 0;"/>
     <div>
       <h3 style="margin-top: 0;">NTHU Data Science Club</h3>
       <strong>Co-Founder | Marketing Director | Project Member</strong><br/>
@@ -113,7 +113,7 @@ draft: false
   </div>
   <div class="exp-tooltip">
     <div class="exp-tooltip-body">
-      <img class="exp-tooltip-photo" src="/images/dsc-photo.jpg" alt="NTHU Data Science Club"/>
+      <img class="exp-tooltip-photo" src="/images/nthu-dsc-photo.jpg" alt="NTHU Data Science Club"/>
       <ul>
         <li><strong>Data Analysis:</strong> Analyzed 1.5MM+ coffee retail invoice records to identify customer segments and preferences using RFM analysis and data visualization, generating industry insights used by LnData to attract new business.</li>
         <li><strong>Leadership:</strong> Established partnerships with 7 companies, securing 5 industry mentors to support long-term academia-industry collaboration.</li>
