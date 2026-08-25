@@ -2,6 +2,7 @@
 title: "Global Production Strategy at Mercedes-Benz: Organization, Location, and Specialization"
 date: 2023-06-09
 summary: "A study of Mercedes-Benz’s global production layout, focusing on how different production strategies are deployed across countries under changing economic and technological conditions."
+skills: ["Supply Chain Analysis", "Heckscher–Ohlin Theory", "Product Life Cycle Theory"]
 ---
 
 Mercedes-Benz is widely recognized as one of the most successful global automotive brands. Despite the significant downturn experienced by the traditional automotive industry during the COVID-19 pandemic, the company demonstrated a strong post-pandemic recovery, with profitability rebounding to pre-crisis levels. In parallel, the global automotive sector is undergoing structural transformation driven by stricter ESG expectations, increased automation, and the transition toward electrification. Within this context, production systems are no longer evaluated solely on cost efficiency, but also on flexibility, sustainability, and long-term strategic resilience. This study therefore focuses on Mercedes-Benz’s global production layout and examines how the firm organizes and reallocates its manufacturing activities in response to these evolving pressures.

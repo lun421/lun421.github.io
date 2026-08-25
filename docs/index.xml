@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gavin&#39;s Website</title>
     <link>https://www.gavinlun.com/</link>
     <description>Recent content on Gavin&#39;s Website</description>
-    <generator>Hugo -- 0.153.5</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.gavinlun.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gen AI-Powered Interview Chatbot MVP for Technology Transformation — Internal Project in Deloitte</title>
+      <link>https://www.gavinlun.com/projects/interview-chatbot-mvp/</link>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.gavinlun.com/projects/interview-chatbot-mvp/</guid>
+      <description>An interview chatbot MVP using Llama 3 to extract structured insights from executive interviews in consulting.</description>
+    </item>
     <item>
       <title>Machine Learning — Based Diabetes Risk Prediction Using Questionnaire Data</title>
       <link>https://www.gavinlun.com/projects/diabetes-risk-prediction-ml/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://www.gavinlun.com/projects/diabetes-risk-prediction-ml/</guid>
       <description>End-to-end implementation of recall-oriented machine learning models for diabetes risk screening using large-scale public health survey data.</description>
+    </item>
+    <item>
+      <title>Data-Driven Analysis of the Chain Coffee Market in Taiwan — Cooperation with LnData.</title>
+      <link>https://www.gavinlun.com/projects/chain-coffee-market/</link>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.gavinlun.com/projects/chain-coffee-market/</guid>
+      <description>Combining transaction records and social media data to analyze consumer behavior, market trends, and brand strategies in Taiwan’s chain coffee market.</description>
     </item>
     <item>
       <title>Obesity, Globalization, and Education: An Empirical Panel Data Analysis</title>
@@ -41,58 +55,7 @@
       <link>https://www.gavinlun.com/profile/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.gavinlun.com/profile/</guid>
-      <description>&lt;hr&gt;
-&lt;h2 id=&#34;work-experience&#34;&gt;Work Experience&lt;/h2&gt;
-&lt;div style=&#34;display: flex; align-items: flex-start; margin-bottom: 30px;&#34;&gt;
-  &lt;img src=&#34;https://www.gavinlun.com/images/deloitte-logo.png&#34; alt=&#34;Deloitte&#34; width=&#34;80&#34; style=&#34;margin-right: 20px; flex-shrink: 0;&#34;/&gt;
-  &lt;div&gt;
-    &lt;h3 style=&#34;margin-top: 0;&#34;&gt;Deloitte &amp; Touche&lt;/h3&gt;
-    &lt;strong&gt;Technology Strategy &amp; Transformation Intern&lt;/strong&gt;&lt;br/&gt;
-    Taipei, Taiwan | Oct. 2025 – Jan. 2026
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&#34;display: flex; align-items: flex-start; margin-bottom: 30px;&#34;&gt;
-  &lt;img src=&#34;https://www.gavinlun.com/images/ipg-mediabrands-logo.jpg&#34; alt=&#34;IPG Mediabrands&#34; width=&#34;80&#34; style=&#34;margin-right: 20px; flex-shrink: 0;&#34;/&gt;
-  &lt;div&gt;
-    &lt;h3 style=&#34;margin-top: 0;&#34;&gt;IPG Mediabrands&lt;/h3&gt;
-    &lt;strong&gt;Digital Assistant Intern&lt;/strong&gt;&lt;br/&gt;
-    Taipei, Taiwan | Jul. 2024 – Nov. 2024
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
-&lt;div style=&#34;display: flex; align-items: flex-start; margin-bottom: 30px;&#34;&gt;
-  &lt;img src=&#34;https://www.gavinlun.com/images/cmu-logo.jpg&#34; alt=&#34;Carnegie Mellon University&#34; width=&#34;80&#34; style=&#34;margin-right: 20px; flex-shrink: 0;&#34;/&gt;
-  &lt;div&gt;
-    &lt;h3 style=&#34;margin-top: 0;&#34;&gt;Carnegie Mellon University&lt;/h3&gt;
-    &lt;em&gt;Master of Science in Business Analytics (Admitted)&lt;/em&gt;&lt;br/&gt;
-    Pittsburgh, PA | Aug. 2026 – May 2027
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div style=&#34;display: flex; align-items: flex-start; margin-bottom: 30px;&#34;&gt;
-  &lt;img src=&#34;https://www.gavinlun.com/images/nthu-logo.jpg&#34; alt=&#34;National Tsing Hua University&#34; width=&#34;80&#34; style=&#34;margin-right: 20px; flex-shrink: 0;&#34;/&gt;
-  &lt;div&gt;
-    &lt;h3 style=&#34;margin-top: 0;&#34;&gt;National Tsing Hua University&lt;/h3&gt;
-    &lt;em&gt;Bachelor of Arts in Economics&lt;/em&gt;&lt;br/&gt;
-    Hsinchu, Taiwan | Sep. 2021 – Jun. 2025
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;leadership&#34;&gt;Leadership&lt;/h2&gt;
-&lt;div style=&#34;display: flex; align-items: flex-start; margin-bottom: 30px;&#34;&gt;
-  &lt;img src=&#34;https://www.gavinlun.com/images/nthu-dsc-club-logo.jpg&#34; alt=&#34;NTHU Data Science Club&#34; width=&#34;80&#34; style=&#34;margin-right: 20px; flex-shrink: 0;&#34;/&gt;
-  &lt;div&gt;
-    &lt;h3 style=&#34;margin-top: 0;&#34;&gt;NTHU Data Science Club&lt;/h3&gt;
-    &lt;strong&gt;Marketing Director | Project Member&lt;/strong&gt;&lt;br/&gt;
-    Hsinchu, Taiwan | Aug. 2024 – Jun. 2025
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Python, R, SQL, Excel, Tableau&lt;/li&gt;
-&lt;li&gt;Fluent in Mandarin and English&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;work-experience&#34;&gt;&#xD;&#xA;  Work Experience&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#work-experience&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;div class=&#34;exp-item&#34;&gt;&#xA;  &lt;div style=&#34;display: flex; align-items: flex-start; margin-bottom: 30px;&#34;&gt;&#xA;    &lt;img src=&#34;https://www.gavinlun.com/images/deloitte-logo.png&#34; alt=&#34;Deloitte&#34; width=&#34;80&#34; style=&#34;margin-right: 20px; flex-shrink: 0;&#34;/&gt;&#xA;    &lt;div&gt;&#xA;      &lt;h3 style=&#34;margin-top: 0;&#34;&gt;Deloitte &amp; Touche&lt;/h3&gt;&#xA;      &lt;strong&gt;Technology Strategy &amp; Transformation Intern&lt;/strong&gt;&lt;br/&gt;&#xA;      Taipei, Taiwan | Oct. 2025 – Jan. 2026&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;exp-tooltip&#34;&gt;&#xA;    &lt;div class=&#34;exp-tooltip-body&#34;&gt;&#xA;      &lt;img class=&#34;exp-tooltip-photo&#34; src=&#34;https://www.gavinlun.com/images/deloitte-photo.jpg&#34; alt=&#34;Deloitte &amp; Touche&#34;/&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;strong&gt;AI Product Development:&lt;/strong&gt; Designed and developed a generative AI-powered interview chatbot to support structured qualitative interview analysis, delivering a functional prototype for future deployment.&lt;/li&gt;&#xA;        &lt;li&gt;&lt;strong&gt;Competitive Benchmarking:&lt;/strong&gt; Conducted research on generative AI deployment architectures and open-source LLM adoption strategies, identifying AI partnership opportunities for Taiwanese financial institutions.&lt;/li&gt;&#xA;        &lt;li&gt;&lt;strong&gt;Strategic Analysis:&lt;/strong&gt; Estimated market size, implementation costs, and potential consulting revenue associated with AI deployment to small financial institutions and presented the business case to senior management, scoping $1MM+ in firm revenue.&lt;/li&gt;&#xA;        &lt;li&gt;&lt;strong&gt;Performance Analysis:&lt;/strong&gt; Researched performance evaluation frameworks to assess clients across airports, museums, and government agencies, supporting benchmarking and best-practice recommendations.&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;exp-item&#34;&gt;&#xA;  &lt;div style=&#34;display: flex; align-items: flex-start; margin-bottom: 30px;&#34;&gt;&#xA;    &lt;img src=&#34;https://www.gavinlun.com/images/ipg-mediabrands-logo.jpg&#34; alt=&#34;IPG Mediabrands&#34; width=&#34;80&#34; style=&#34;margin-right: 20px; flex-shrink: 0;&#34;/&gt;&#xA;    &lt;div&gt;&#xA;      &lt;h3 style=&#34;margin-top: 0;&#34;&gt;IPG Mediabrands&lt;/h3&gt;&#xA;      &lt;strong&gt;Digital Assistant Intern&lt;/strong&gt;&lt;br/&gt;&#xA;      Taipei, Taiwan | Jul. 2024 – Nov. 2024&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;exp-tooltip&#34;&gt;&#xA;    &lt;div class=&#34;exp-tooltip-body&#34;&gt;&#xA;      &lt;img class=&#34;exp-tooltip-photo&#34; src=&#34;https://www.gavinlun.com/images/ipg-photo.jpg&#34; alt=&#34;IPG Mediabrands&#34;/&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;strong&gt;Data Analysis:&lt;/strong&gt; Analyzed Google and Meta advertising performance data to identify underperforming campaigns and recommend optimization opportunities, improving KPIs such as click-through rate and view-through rate.&lt;/li&gt;&#xA;        &lt;li&gt;&lt;strong&gt;Process Automation:&lt;/strong&gt; Built Python web scraping scripts to automate data collection from Google and Meta platforms, improving accuracy of weekly reports and reducing manual effort by 50%.&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;education&#34;&gt;&#xD;&#xA;  Education&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#education&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;div class=&#34;exp-item&#34;&gt;&#xA;  &lt;div style=&#34;display: flex; align-items: flex-start; margin-bottom: 30px;&#34;&gt;&#xA;    &lt;img src=&#34;https://www.gavinlun.com/images/cmu-logo.jpg&#34; alt=&#34;Carnegie Mellon University&#34; width=&#34;80&#34; style=&#34;margin-right: 20px; flex-shrink: 0;&#34;/&gt;&#xA;    &lt;div&gt;&#xA;      &lt;h3 style=&#34;margin-top: 0;&#34;&gt;Carnegie Mellon University - Tepper School of Business&lt;/h3&gt;&#xA;      &lt;em&gt;Master of Science in Business Analytics&lt;/em&gt;&lt;br/&gt;&#xA;      Pittsburgh, PA | Aug. 2026 – May 2027&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;exp-tooltip&#34;&gt;&#xA;    &lt;div class=&#34;exp-tooltip-body&#34;&gt;&#xA;      &lt;img class=&#34;exp-tooltip-photo&#34; src=&#34;https://www.gavinlun.com/images/casecomp.jpg&#34; alt=&#34;Carnegie Mellon University&#34;/&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;strong&gt;Achievement:&lt;/strong&gt; Tri-State Capital MS Case Competition 2026 - 1st Place Winner.&lt;/li&gt;&#xA;        &lt;li&gt;&lt;strong&gt;Relevant Coursework:&lt;/strong&gt; Business Fundamentals, Machine Learning Fundamentals, Modern Data Management.&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;exp-item&#34;&gt;&#xA;  &lt;div style=&#34;display: flex; align-items: flex-start; margin-bottom: 30px;&#34;&gt;&#xA;    &lt;img src=&#34;https://www.gavinlun.com/images/nthu-logo.jpg&#34; alt=&#34;National Tsing Hua University&#34; width=&#34;80&#34; style=&#34;margin-right: 20px; flex-shrink: 0;&#34;/&gt;&#xA;    &lt;div&gt;&#xA;      &lt;h3 style=&#34;margin-top: 0;&#34;&gt;National Tsing Hua University&lt;/h3&gt;&#xA;      &lt;em&gt;Bachelor of Arts in Economics&lt;/em&gt;&lt;br/&gt;&#xA;      Hsinchu, Taiwan | Sep. 2021 – Jun. 2025&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;exp-tooltip&#34;&gt;&#xA;    &lt;div class=&#34;exp-tooltip-body&#34;&gt;&#xA;      &lt;img class=&#34;exp-tooltip-photo&#34; src=&#34;https://www.gavinlun.com/images/grad.jpg&#34; alt=&#34;National Tsing Hua University Graduation&#34;/&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;strong&gt;Certificate:&lt;/strong&gt; Data Science Program Certificate (18 credits).&lt;/li&gt;&#xA;        &lt;li&gt;&lt;strong&gt;Honor:&lt;/strong&gt; Academic Excellence Award, 2021 (Top 1% of Students).&lt;/li&gt;&#xA;        &lt;li&gt;&lt;strong&gt;Leadership:&lt;/strong&gt; Data Science Club Co-Founder.&lt;/li&gt;&#xA;        &lt;li&gt;&lt;strong&gt;Relevant Coursework:&lt;/strong&gt; Linear Algebra, Mathematical Statistics, Statistical Data Analysis, Econometrics, Programming in Python, Programming for Business Analytics.&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;leadership&#34;&gt;&#xD;&#xA;  Leadership&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#leadership&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;div class=&#34;exp-item&#34;&gt;&#xA;  &lt;div style=&#34;display: flex; align-items: flex-start; margin-bottom: 30px;&#34;&gt;&#xA;    &lt;img src=&#34;https://www.gavinlun.com/images/nthu-dsc-club-logo.jpg&#34; alt=&#34;NTHU Data Science Club&#34; width=&#34;80&#34; style=&#34;margin-right: 20px; flex-shrink: 0;&#34;/&gt;&#xA;    &lt;div&gt;&#xA;      &lt;h3 style=&#34;margin-top: 0;&#34;&gt;NTHU Data Science Club&lt;/h3&gt;&#xA;      &lt;strong&gt;Co-Founder | Marketing Director | Project Member&lt;/strong&gt;&lt;br/&gt;&#xA;      Hsinchu, Taiwan | Aug. 2024 – Jun. 2025&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;exp-tooltip&#34;&gt;&#xA;    &lt;div class=&#34;exp-tooltip-body&#34;&gt;&#xA;      &lt;img class=&#34;exp-tooltip-photo&#34; src=&#34;https://www.gavinlun.com/images/dsc-photo.jpg&#34; alt=&#34;NTHU Data Science Club&#34;/&gt;&#xA;      &lt;ul&gt;&#xA;        &lt;li&gt;&lt;strong&gt;Data Analysis:&lt;/strong&gt; Analyzed 1.5MM+ coffee retail invoice records to identify customer segments and preferences using RFM analysis and data visualization, generating industry insights used by LnData to attract new business.&lt;/li&gt;&#xA;        &lt;li&gt;&lt;strong&gt;Leadership:&lt;/strong&gt; Established partnerships with 7 companies, securing 5 industry mentors to support long-term academia-industry collaboration.&lt;/li&gt;&#xA;        &lt;li&gt;&lt;strong&gt;Marketing:&lt;/strong&gt; Developed learning materials on core data science topics for 200+ students and promoted content on LinkedIn and Instagram, supporting member training and development.&lt;/li&gt;&#xA;      &lt;/ul&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;skills&#34;&gt;&#xD;&#xA;  Skills&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#skills&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Technical Skills:&lt;/strong&gt; Python, R, SQL, Tableau, Excel&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Languages:&lt;/strong&gt; English, Mandarin&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;additional-information&#34;&gt;&#xD;&#xA;  Additional Information&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#additional-information&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Financial Management Associate Certificate from the Committee for Advanced Financial Management&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Interests:&lt;/strong&gt; Piano (Yamaha Grade 6 Certification), Dance (Popping Style)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

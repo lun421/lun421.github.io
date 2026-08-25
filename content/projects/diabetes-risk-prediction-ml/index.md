@@ -3,6 +3,7 @@ title: "Machine Learning — Based Diabetes Risk Prediction Using Questionnaire 
 date: 2025-06-01
 summary: "End-to-end implementation of recall-oriented machine learning models for diabetes risk screening using large-scale public health survey data."
 math: true
+skills: ["Naive Bayes", "Gradient Descent", "Recall", "Precision", "F-score"]
 ---
 
 This project develops a machine learning–based diabetes risk prediction framework using non-invasive, questionnaire-derived health indicators as an alternative to traditional blood-based diagnostics. The study is based on the 2015 Behavioral Risk Factor Surveillance System (BRFSS) released by the U.S. Centers for Disease Control and Prevention, covering 253,680 observations with lifestyle behaviors, health conditions, and basic demographic features. The primary objective is to assess whether low-cost, highly accessible survey data can support early diabetes risk screening and provide practical value for public health decision-making.

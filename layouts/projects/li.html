@@ -1,0 +1,11 @@
+<li>
+  <span class="date">{{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
+  <div class="li-main">
+    <a class="title" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a>
+    {{ with .Params.skills }}
+    <div class="skill-tags">
+      {{ range . }}<span class="skill-tag">{{ . }}</span>{{ end }}
+    </div>
+    {{ end }}
+  </div>
+</li>

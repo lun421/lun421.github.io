@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Gavin&#39;s Website</title>
     <link>https://www.gavinlun.com/projects/</link>
     <description>Recent content in Projects on Gavin&#39;s Website</description>
-    <generator>Hugo -- 0.153.5</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.gavinlun.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gen AI-Powered Interview Chatbot MVP for Technology Transformation — Internal Project in Deloitte</title>
+      <link>https://www.gavinlun.com/projects/interview-chatbot-mvp/</link>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.gavinlun.com/projects/interview-chatbot-mvp/</guid>
+      <description>An interview chatbot MVP using Llama 3 to extract structured insights from executive interviews in consulting.</description>
+    </item>
     <item>
       <title>Machine Learning — Based Diabetes Risk Prediction Using Questionnaire Data</title>
       <link>https://www.gavinlun.com/projects/diabetes-risk-prediction-ml/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://www.gavinlun.com/projects/diabetes-risk-prediction-ml/</guid>
       <description>End-to-end implementation of recall-oriented machine learning models for diabetes risk screening using large-scale public health survey data.</description>
+    </item>
+    <item>
+      <title>Data-Driven Analysis of the Chain Coffee Market in Taiwan — Cooperation with LnData.</title>
+      <link>https://www.gavinlun.com/projects/chain-coffee-market/</link>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.gavinlun.com/projects/chain-coffee-market/</guid>
+      <description>Combining transaction records and social media data to analyze consumer behavior, market trends, and brand strategies in Taiwan’s chain coffee market.</description>
     </item>
     <item>
       <title>Obesity, Globalization, and Education: An Empirical Panel Data Analysis</title>

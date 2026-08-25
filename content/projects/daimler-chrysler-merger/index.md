@@ -2,6 +2,7 @@
 title: "Daimler–Chrysler Merger: Strategic and Organizational Lessons from a Failed Integration"
 date: 2024-01-11
 summary: "A case study of how Daimler-Benz and Chrysler pursued a merger of equals, and why cultural, strategic, and structural misalignment ultimately turned it into one of the most costly failures in automotive history."
+skills: ["M&A Analysis", "Business Case Study", "Valuation"]
 ---
 # Preface
 In 1998, two of the world's most profitable automobile manufacturers, Daimler-Benz AG and Chrysler Corporation, embarked on a venture to merge their businesses as equals. This monumental merger, valued at an astonishing $35 billion, stood as the largest industrial merger of its time. However, a mere nine years later, this ambitious endeavor was abandoned. By paying just $7.4 billion for Chrysler, the private equity group Cerberus showed that the creation of DaimlerChrysler was one of the most unsuccessful mergers of modern times.

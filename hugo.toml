@@ -1,40 +1,43 @@
 baseURL = "https://www.gavinlun.com/"
 languageCode = "en-us"
 title = "Gavin's Website"
-theme = "PaperMod"
+theme = "hugo-coder"
 publishDir = "docs"
 
 [pagination]
-  pagerSize = 5
+  pagerSize = 20
 
 [params]
-  env = "production"
-  author = "Gavin Chen"
-  description = "Master's candidate | Data & Analytics"
-  defaultTheme = "light"
-  ShowReadingTime = true
-  ShowCodeCopyButtons = true
-  ShowPostNavLinks = true
-  customCSS = ["css/extended/custom.css"]
+  author = "Gavin (Kuan-Lun) Chen"
+  info = [
+    "陳冠倫",
+    "<span class=\"tagline-degree\">MS in Business Analytics @ Carnegie Mellon University, experienced in turning analysis into decisions.</span>",
+    "<span class=\"tagline-sub\">Open to Data Scientist and Business Analyst roles for 2027.</span>",
+  ]
+  description = "Gavin Chen's portfolio — MS in Business Analytics @ Carnegie Mellon University. Data science and business analytics projects, resume, and experience."
+  keywords = "data science, business analytics, portfolio, resume, Carnegie Mellon University"
+  avatarurl = "images/avatar.webp"
   math = false
+  colorScheme = "auto"
+  customCSS = ["css/extended/custom.css"]
 
-
-  [[params.socialIcons]]
-    name = "github"
+  [[params.social]]
+    name = "Github"
+    icon = "fa-brands fa-github fa-2x"
+    weight = 1
     url = "https://github.com/lun421"
 
-  [[params.socialIcons]]
-    name = "linkedin"
+  [[params.social]]
+    name = "LinkedIn"
+    icon = "fa-brands fa-linkedin fa-2x"
+    weight = 2
     url = "https://linkedin.com/in/gavinchen21"
 
-  [[params.socialIcons]]
-    name = "email"
-    url = "mailto:gavinchen2002@gmail.com"
-
-[params.profileMode]
-  enabled = true
-  imageUrl = "images/avatar.webp"
-
+  [[params.social]]
+    name = "Email"
+    icon = "fa-solid fa-envelope fa-2x"
+    weight = 3
+    url = "mailto:gavinc@tepper.cmu.edu"
 
 [menu]
   [[menu.main]]
@@ -56,4 +59,3 @@ publishDir = "docs"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
